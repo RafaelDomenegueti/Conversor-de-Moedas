@@ -15,7 +15,7 @@ h1{
     position: fixed;
     background-color: rgb(194, 191, 191);
     width: 250px;
-    height: 275px;
+    height: 255px;
     border-radius: 15px;
     left: 50%;
     top: 450px;
@@ -32,8 +32,16 @@ h1{
     font-size: 20pt;
 }
 #real{
-    top: 80px;
+    top: 40px;
 }
-#dolar{
-    top: 180px;
+#converter{
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    top: 113px;
+    left: 50%;
+    margin-left: -50px;
+}
+#resdolar{
+    top: 160px;
 }

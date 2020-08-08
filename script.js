@@ -1,4 +1,5 @@
 var request = new XMLHttpRequest()
+var dolar = ""
 
 request.open('GET', "https://economia.awesomeapi.com.br/all/USD")
 
@@ -12,7 +13,16 @@ request.onload = function() {
 
 function dolarpop(p) {
 
-    var dolar = Number(p["USD"]["high"]).toFixed(2)
-    document.getElementById("dolar").placeholder= `BRL ${dolar}`
+    dolar = Number(p["USD"]["high"]).toFixed(2)
+    document.getElementById("resdolar").placeholder= `BRL ${dolar}`
+
+}
+
+function converter(){
+
+    let real = document.getElementById("real").value 
+    
+    let res = (real*dolar).toFixed(2)
+    document.getElementById("resdolar").value=("BRL " + res)
 
 }
