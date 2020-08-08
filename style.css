@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(32, 32, 53);
+}
+h1{
+    position: relative;
+    text-align: center;
+    font-size: 40pt;
+    color: rgb(226, 225, 225);
+    width: 400px;
+    top: 250px;
+    left: 50%;
+    margin-left: -200px;
+}
+#bloco{
+    position: fixed;
+    background-color: rgb(194, 191, 191);
+    width: 250px;
+    height: 275px;
+    border-radius: 15px;
+    left: 50%;
+    top: 450px;
+    margin-left: -125px;
+    
+}
+.boxtext{
+    position: absolute;
+    border-radius: 10px;
+    height: 50px;
+    width: 210px;
+    left: 50%;
+    margin-left: -109px;
+    font-size: 20pt;
+}
+#real{
+    top: 80px;
+}
+#dolar{
+    top: 180px;
+}
