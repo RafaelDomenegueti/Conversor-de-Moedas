@@ -32,7 +32,6 @@ function converter(){
         document.getElementById("txt2").value=("BRL " + res)
 
     }
-
     if (m1.value == "eurom1" && m2.value == "realm2"){
 
         let txt1 = document.getElementById("txt1").value 
@@ -41,6 +40,14 @@ function converter(){
         let res = (txt1*euro).toFixed(2)
         document.getElementById("txt2").value=("BRL " + res)
 
+    }
+    if (m1.value == "realm1" && m2.value == "realm2"){
+
+        let txt1 = document.getElementById("txt1").value
+        txt1 = (txt1.toString().replace(",", "."));
+
+        let res = (txt1*1).toFixed(2)
+        document.getElementById("txt2").value=("BRL " + txt1)
     }
 
 }
