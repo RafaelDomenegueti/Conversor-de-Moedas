@@ -15,7 +15,7 @@ h1{
     position: fixed;
     background-color: rgb(194, 191, 191);
     width: 250px;
-    height: 255px;
+    height: 265px;
     border-radius: 15px;
     left: 50%;
     top: 450px;
@@ -31,17 +31,27 @@ h1{
     margin-left: -109px;
     font-size: 20pt;
 }
-#real{
+#txt1{
     top: 40px;
 }
 #converter{
     position: absolute;
     width: 100px;
     height: 30px;
-    top: 113px;
-    left: 50%;
-    margin-left: -50px;
+    top: 120px;
+    left: 20px;
 }
-#resdolar{
-    top: 160px;
+#txt2{
+    top: 170px;
+}
+#m1{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+#m2{
+    position: absolute;
+    top: 150px;
+    left: 100%;
+    margin-left: -75px;
 }

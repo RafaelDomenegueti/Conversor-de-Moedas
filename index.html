@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Conversor de Moedas</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
@@ -12,12 +12,24 @@
 
     <div id="bloco">
 
-        <input type="text" class="boxtext" id="real" placeholder="USD 1.00">
+        <select id="m1">
+            <option value="dolarm1">Dolar</option>
+            <option value="eurom1">Euro</option>
+            <option value="realm1">Real</option>
+        </select>
+        <input type="text" class="boxtext" id="txt1" placeholder="De:">
+
         <input type="button" value="Converter" id="converter" onclick="converter()">
-        <input type="text" class="boxtext" id="resdolar">
+
+        <select id="m2">
+            <option value="realm2">Real</option>
+            <option value="dolarm2">Dolar</option>
+            <option value="eurom2">Euro</option>
+        </select>
+        <input type="text" class="boxtext" id="txt2" placeholder="Para:">
 
     </div>
 
-    <script src="script.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
