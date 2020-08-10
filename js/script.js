@@ -16,8 +16,8 @@ request.onload = function() {
 
 function dolarpop(p) {
 
-    dolar = Number(p["USD"]["high"]).toFixed(2)
-    euro = Number(p["EUR"]["high"]).toFixed(2)
+    dolar = Number(p["USD"]["ask"]).toFixed(2)
+    euro = Number(p["EUR"]["ask"]).toFixed(2)
 
 }
 
